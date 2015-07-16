@@ -1,0 +1,5 @@
+c:\users\davisss\documents\visual studio 2012\Projects\AvgDivCalc2\AvgDivCalc2\bin\AvgDivCalc2.dll
+c:\users\davisss\documents\visual studio 2012\Projects\AvgDivCalc2\AvgDivCalc2\bin\AvgDivCalc2.pdb
+c:\users\davisss\documents\visual studio 2012\Projects\AvgDivCalc2\AvgDivCalc2\obj\Debug\AvgDivCalc2.csprojResolveAssemblyReference.cache
+c:\users\davisss\documents\visual studio 2012\Projects\AvgDivCalc2\AvgDivCalc2\obj\Debug\AvgDivCalc2.dll
+c:\users\davisss\documents\visual studio 2012\Projects\AvgDivCalc2\AvgDivCalc2\obj\Debug\AvgDivCalc2.pdb

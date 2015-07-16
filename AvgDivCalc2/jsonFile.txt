@@ -1,0 +1,26 @@
+﻿{
+ "query": {
+  "count": 3,
+  "created": "2015-07-16T14:51:08Z",
+  "lang": "en-US",
+  "results": {
+   "quote": [
+    {
+     "DividendShare": "2.16",
+     "LastTradePriceOnly": "47.74",
+     "Symbol": "STX"
+    },
+    {
+     "DividendShare": null,
+     "LastTradePriceOnly": "567.00",
+     "Symbol": "GOOG"
+    },
+    {
+     "DividendShare": "1.240",
+     "LastTradePriceOnly": "46.236",
+     "Symbol": "MSFT"
+    }
+   ]
+  }
+ }
+}

@@ -1,0 +1,10 @@
+﻿body {
+}
+
+.start-hidden {
+    display: none;
+}
+
+.highlight {
+    border-color: red;
+}
