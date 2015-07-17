@@ -1,21 +1,26 @@
 ﻿<!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-    <script src="Scripts/jquery-2.1.4.min.js"></script>
-    <script src="app.js"></script>
+    <link href="Content/bootstrap.min.css" rel="stylesheet" />
     <link href="Style.css" rel="stylesheet" />
+    <script src="Scripts/jquery-2.1.4.min.js"></script>
+    <script src="Scripts/bootstrap.min.js"></script>
+    <script src="app.js"></script>
+
     <title>Average Dividend Calculator</title>
 </head>
 <body>
-    How many stocks?
+    <div class="top">
+        How many stocks?
+    </div>
     <br />
     <input id="NumberOfStocksTextBox" type="text" />
-    <input type="button" value="OK" id="SubmitNumberOfStocks" />
+    <input type="button" value="OK" id="SubmitNumberOfStocks" class="btn btn-primary" />
     <div class="stocks">
 
     </div>
     <div class="calculateArea">
-        <input id="Calculate" type="button" value="Calculate" class="start-hidden" />
+        <input id="Calculate" type="button" value="Calculate" class="btn btn-primary start-hidden" />
     </div>
     <div class="outputArea">
         

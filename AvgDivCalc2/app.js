@@ -3,14 +3,15 @@
 var main = function () {
 
     $('#SubmitNumberOfStocks').click(function () {
-        $('.stocks').html('Stock Ticker:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Number of Shares:');
+        $('.stocks').html('');
         limit = parseInt($('#NumberOfStocksTextBox').val());
-        if (isNaN(limit) || limit < 1 || limit > 100) {
+        if (isNaN(limit) || limit < 2 || limit > 100) {
             $('#Calculate').hide();
-            alert('Enter a valid number 1-100');
+            alert('Valid input: 2-100');
             }
         else
         {
+            $('.stocks').html('Stock Ticker:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Number of Shares:');
             var controlCounter = 0;
             while (controlCounter < limit) {
                 $('.stocks').append('<br /><input id="StockTextBox' + controlCounter + '" type="text" class="AllTextBoxes start-hidden" /><input id="NumberOfSharesTextBox' + controlCounter + '" type="text" class="AllTextBoxes start-hidden" />');
@@ -78,10 +79,15 @@ var main = function () {
         }
     });
 
-    //$('#SubmitNumberOfStocks').on('click', '.
 
     $('.stocks').on('keypress', '.highlight', function () {
         $(this).removeClass('highlight');
+    });
+
+    $('#NumberOfStocksTextBox').keyup(function (event) {
+        if (event.keyCode == 13) {
+            $('#SubmitNumberOfStocks').click();
+        }
     });
 }
 
